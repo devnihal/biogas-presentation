@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<!-- saved from url=(0152)https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/8fc18d0d74c5e8ced185129b269e063f/fa96cc22-ddb8-45e1-8d74-6f513d857c0c/index.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biogas Conversion from Food Waste - Presentation</title>
+    <title>Biogas Conversion from Food Waste - Modern Presentation</title>
     <link rel="stylesheet" href="./style.css">
-<style type="text/css" id="tts-styles">[data-tts-block-id].tts-active {background: rgba(206, 225, 255, 0.9) !important;} [data-tts-sentence-id].tts-active {background: rgba(0, 89, 191, 0.7) !important;}</style></head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
 <body>
     <div class="presentation-container">
+        <!-- Progress bar -->
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        
         <!-- Navigation zones -->
         <div class="nav-zone nav-zone-left" id="navLeft"></div>
         <div class="nav-zone nav-zone-right" id="navRight"></div>
@@ -17,20 +25,23 @@
             <!-- Slide 1: Title -->
             <div class="slide active" data-slide="1">
                 <div class="slide-content title-slide">
-                    <h1 class="main-title">Biogas Conversion from Food Waste in Restaurants and Canteens</h1>
-                    <h2 class="subtitle">Feasibility and Scalability for Small-Scale Implementation in India</h2>
-                    <div class="team-info">
-                        <div class="team-title">CSE C – Group 7</div>
-                        <div class="team-members">
-                            <div class="member-name">Ajai Bhaskar</div>
-                            <div class="member-name">Mohammed Nihal A A</div>
-                            <div class="member-name">Karthik Raj</div>
-                            <div class="member-name">Rishika Naveen</div>
-                            <div class="member-name">Luai M Saj</div>
-                        </div>
-                        <div class="institution">
-                            <div>Department of Computer Science and Engineering</div>
-                            <div>LBS College of Engineering Kasaragod</div>
+                    <div class="title-content">
+                        <div class="title-badge">Sustainable Energy Solution</div>
+                        <h1 class="main-title">Biogas Conversion from Food Waste</h1>
+                        <h2 class="subtitle">Feasibility and Scalability for Small-Scale Implementation in India</h2>
+                        <div class="team-info">
+                            <div class="team-title">CSE C – Group 7</div>
+                            <div class="team-members">
+                                <div class="member-name">Ajai Bhaskar</div>
+                                <div class="member-name">Mohammed Nihal A A</div>
+                                <div class="member-name">Karthik Raj</div>
+                                <div class="member-name">Rishika Naveen</div>
+                                <div class="member-name">Luai M Saj</div>
+                            </div>
+                            <div class="institution">
+                                <div>Department of Computer Science and Engineering</div>
+                                <div>LBS College of Engineering Kasaragod</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -39,77 +50,239 @@
             <!-- Slide 2: Problem Statement -->
             <div class="slide" data-slide="2">
                 <div class="slide-content">
-                    <h1 class="slide-title">Problem Statement</h1>
-                    <ul class="bullet-list">
-                        <li>India generates over 65 million tonnes of food waste annually, with significant contributions from restaurants and canteens</li>
-                        <li>Mismanagement of food waste leads to methane emissions, exacerbating climate change</li>
-                        <li>Commercial kitchens face rising LPG fuel costs, increasing operational expenses</li>
-                        <li>There is an urgent need for sustainable solutions that convert waste into renewable energy</li>
-                    </ul>
+                    <div class="slide-header">
+                        <div class="slide-number">01</div>
+                        <h1 class="slide-title">Problem Statement</h1>
+                    </div>
+                    <div class="content-grid">
+                        <div class="content-text">
+                            <ul class="bullet-list">
+                                <li>
+                                    <span class="bullet-icon">⚠️</span>
+                                    <div>
+                                        <strong>65 million tonnes</strong> of food waste annually in India
+                                        <span class="sub-text">with significant contributions from restaurants and canteens</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">🔥</span>
+                                    <div>
+                                        Mismanagement leads to <strong>methane emissions</strong>
+                                        <span class="sub-text">exacerbating climate change</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">💰</span>
+                                    <div>
+                                        Rising <strong>LPG fuel costs</strong>
+                                        <span class="sub-text">increasing operational expenses for commercial kitchens</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">🔄</span>
+                                    <div>
+                                        Urgent need for <strong>sustainable solutions</strong>
+                                        <span class="sub-text">that convert waste into renewable energy</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="content-visual">
+                            <div class="visual-card">
+                                <div class="visual-title">Food Waste in India</div>
+                                <div class="visual-data">
+                                    <div class="data-item">
+                                        <div class="data-value">65M</div>
+                                        <div class="data-label">Tonnes per year</div>
+                                    </div>
+                                </div>
+                                <div class="visual-bar">
+                                    <div class="bar-fill" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
             <!-- Slide 3: Project Objectives -->
             <div class="slide" data-slide="3">
                 <div class="slide-content">
-                    <h1 class="slide-title">Project Objectives</h1>
-                    <ul class="bullet-list objectives">
-                        <li>Convert organic kitchen waste into biogas as a clean cooking fuel alternative</li>
-                        <li>Assess the technical and economic feasibility for Indian restaurants and canteens</li>
-                        <li>Promote sustainable waste management while reducing fossil fuel dependency</li>
-                        <li>Explore scalability potential aligned with Indian government policies</li>
-                    </ul>
+                    <div class="slide-header">
+                        <div class="slide-number">02</div>
+                        <h1 class="slide-title">Project Objectives</h1>
+                    </div>
+                    <div class="objectives-grid">
+                        <div class="objective-card">
+                            <div class="objective-icon">⚡</div>
+                            <h3>Energy Conversion</h3>
+                            <p>Convert organic kitchen waste into biogas as a clean cooking fuel alternative</p>
+                        </div>
+                        <div class="objective-card">
+                            <div class="objective-icon">📊</div>
+                            <h3>Feasibility Assessment</h3>
+                            <p>Assess technical and economic feasibility for Indian restaurants and canteens</p>
+                        </div>
+                        <div class="objective-card">
+                            <div class="objective-icon">🌍</div>
+                            <h3>Sustainability</h3>
+                            <p>Promote sustainable waste management while reducing fossil fuel dependency</p>
+                        </div>
+                        <div class="objective-card">
+                            <div class="objective-icon">📈</div>
+                            <h3>Scalability</h3>
+                            <p>Explore scalability potential aligned with Indian government policies</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             
             <!-- Slide 4: What is Biogas? -->
             <div class="slide" data-slide="4">
                 <div class="slide-content">
-                    <h1 class="slide-title">What is Biogas?</h1>
-                    <ul class="bullet-list">
-                        <li>Biogas is a methane-rich combustible gas resulting from anaerobic digestion of organic materials</li>
-                        <li>Main components: <span class="highlight">Methane (55–70%)</span>, <span class="highlight">Carbon dioxide (30–40%)</span>, trace hydrogen sulfide and water vapor</li>
-                        <li>Applications include cooking fuel, electricity generation, and bio-CNG production</li>
-                        <li>Calorific value ranges between <span class="highlight">20–25 MJ per cubic meter</span></li>
-                    </ul>
+                    <div class="slide-header">
+                        <div class="slide-number">03</div>
+                        <h1 class="slide-title">What is Biogas?</h1>
+                    </div>
+                    <div class="content-grid">
+                        <div class="content-text">
+                            <div class="definition-card">
+                                <p>Biogas is a <strong>methane-rich combustible gas</strong> resulting from anaerobic digestion of organic materials</p>
+                            </div>
+                            <div class="composition-grid">
+                                <div class="composition-item">
+                                    <div class="composition-bar methane"></div>
+                                    <div class="composition-label">Methane (55–70%)</div>
+                                </div>
+                                <div class="composition-item">
+                                    <div class="composition-bar co2"></div>
+                                    <div class="composition-label">Carbon Dioxide (30–40%)</div>
+                                </div>
+                                <div class="composition-item">
+                                    <div class="composition-bar trace"></div>
+                                    <div class="composition-label">Trace Gases</div>
+                                </div>
+                            </div>
+                            <div class="application-list">
+                                <div class="app-item">
+                                    <span class="app-icon">🍳</span>
+                                    <span>Cooking Fuel</span>
+                                </div>
+                                <div class="app-item">
+                                    <span class="app-icon">💡</span>
+                                    <span>Electricity Generation</span>
+                                </div>
+                                <div class="app-item">
+                                    <span class="app-icon">⛽</span>
+                                    <span>Bio-CNG Production</span>
+                                </div>
+                            </div>
+                            <div class="calorific-value">
+                                <strong>Calorific Value:</strong> 20–25 MJ per cubic meter
+                            </div>
+                        </div>
+                        <div class="content-visual">
+                            <div class="biogas-visual">
+                                <div class="biogas-bubble"></div>
+                                <div class="biogas-bubble"></div>
+                                <div class="biogas-bubble"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
             <!-- Slide 5: Anaerobic Digestion Process -->
             <div class="slide" data-slide="5">
                 <div class="slide-content">
-                    <h1 class="slide-title">Anaerobic Digestion Process</h1>
-                    <div class="process-stages">
-                        <div class="stage">Hydrolysis</div>
-                        <div class="arrow">→</div>
-                        <div class="stage">Acidogenesis</div>
-                        <div class="arrow">→</div>
-                        <div class="stage">Acetogenesis</div>
-                        <div class="arrow">→</div>
-                        <div class="stage">Methanogenesis</div>
+                    <div class="slide-header">
+                        <div class="slide-number">04</div>
+                        <h1 class="slide-title">Anaerobic Digestion Process</h1>
                     </div>
-                    <ul class="bullet-list">
-                        <li>Optimal operating conditions: <span class="highlight">35–40°C temperature</span>, <span class="highlight">pH 6.8–7.2</span>, hydraulic retention time of <span class="highlight">25–30 days</span></li>
-                        <li>Outputs include biogas and nutrient-rich digestate (fertiliser)</li>
-                    </ul>
+                    <div class="process-flow">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <div class="step-name">Hydrolysis</div>
+                            <div class="step-desc">Breakdown of complex organic matter</div>
+                        </div>
+                        <div class="process-arrow">→</div>
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <div class="step-name">Acidogenesis</div>
+                            <div class="step-desc">Formation of volatile fatty acids</div>
+                        </div>
+                        <div class="process-arrow">→</div>
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <div class="step-name">Acetogenesis</div>
+                            <div class="step-desc">Conversion to acetic acid</div>
+                        </div>
+                        <div class="process-arrow">→</div>
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <div class="step-name">Methanogenesis</div>
+                            <div class="step-desc">Production of methane gas</div>
+                        </div>
+                    </div>
+                    <div class="process-conditions">
+                        <div class="condition">
+                            <div class="condition-icon">🌡️</div>
+                            <div class="condition-details">
+                                <div class="condition-value">35–40°C</div>
+                                <div class="condition-label">Temperature</div>
+                            </div>
+                        </div>
+                        <div class="condition">
+                            <div class="condition-icon">⚗️</div>
+                            <div class="condition-details">
+                                <div class="condition-value">6.8–7.2</div>
+                                <div class="condition-label">pH Level</div>
+                            </div>
+                        </div>
+                        <div class="condition">
+                            <div class="condition-icon">⏱️</div>
+                            <div class="condition-details">
+                                <div class="condition-value">25–30 days</div>
+                                <div class="condition-label">Retention Time</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
             <!-- Slide 6: Biogas Plant Design -->
             <div class="slide" data-slide="6">
                 <div class="slide-content">
-                    <h1 class="slide-title">Biogas Plant Design (India)</h1>
-                    <div class="content-with-image">
-                        <div class="text-content">
+                    <div class="slide-header">
+                        <div class="slide-number">05</div>
+                        <h1 class="slide-title">Biogas Plant Design (India)</h1>
+                    </div>
+                    <div class="content-grid">
+                        <div class="content-text">
                             <ul class="bullet-list">
-                                <li>Common designs include fixed-dome and KVIC floating drum digesters adapted for India</li>
-                                <li>Main components: waste feed inlet, digester tank, gas storage dome, hydrogen sulfide scrubber, and slurry outlet</li>
-                                <li>Typical scale: <span class="highlight">2 to 10 cubic meters</span> of digester volume</li>
-                                <li>Constructed using bricks or ferrocement for cost-effectiveness and durability</li>
+                                <li>
+                                    <span class="bullet-icon">🏗️</span>
+                                    <div>Common designs include <strong>fixed-dome</strong> and <strong>KVIC floating drum</strong> digesters adapted for India</div>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">🔧</span>
+                                    <div>Main components: waste feed inlet, digester tank, gas storage dome, hydrogen sulfide scrubber, and slurry outlet</div>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">📏</span>
+                                    <div>Typical scale: <strong>2 to 10 cubic meters</strong> of digester volume</div>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">🧱</span>
+                                    <div>Constructed using <strong>bricks or ferrocement</strong> for cost-effectiveness and durability</div>
+                                </li>
                             </ul>
                         </div>
-                        <div class="image-content">
-                            <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/632ec692-309d-4f1b-8394-b8cda1e4813a.png" alt="Biogas Plant Design" class="slide-image">
+                        <div class="content-visual">
+                            <div class="image-frame">
+                                <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/632ec692-309d-4f1b-8394-b8cda1e4813a.png" alt="Biogas Plant Design" class="slide-image">
+                                <div class="image-caption">Biogas Plant Schematic</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -118,18 +291,52 @@
             <!-- Slide 7: Feedstock & Biogas Yield -->
             <div class="slide" data-slide="7">
                 <div class="slide-content">
-                    <h1 class="slide-title">Feedstock &amp; Biogas Yield</h1>
-                    <div class="content-with-image">
-                        <div class="text-content">
+                    <div class="slide-header">
+                        <div class="slide-number">06</div>
+                        <h1 class="slide-title">Feedstock & Biogas Yield</h1>
+                    </div>
+                    <div class="content-grid">
+                        <div class="content-text">
                             <ul class="bullet-list">
-                                <li>Indian restaurant food waste typically contains cooked rice, mixed vegetables, dals, and peels</li>
-                                <li>Expected biogas yield: <span class="highlight">0.3 to 0.35 m³ per kilogram</span> of food waste</li>
-                                <li>Methane content is approximately <span class="highlight">60 to 65%</span></li>
-                                <li>Example: <span class="highlight">30 kg of waste → ~10 m³ of biogas daily</span>, roughly equivalent to six LPG cylinders worth of energy per month</li>
+                                <li>
+                                    <span class="bullet-icon">🍚</span>
+                                    <div>Indian restaurant food waste typically contains cooked rice, mixed vegetables, dals, and peels</div>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">📊</span>
+                                    <div>Expected biogas yield: <strong>0.3 to 0.35 m³ per kilogram</strong> of food waste</div>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">💨</span>
+                                    <div>Methane content is approximately <strong>60 to 65%</strong></div>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">📈</span>
+                                    <div>Example: <strong>30 kg of waste → ~10 m³ of biogas daily</strong>, roughly equivalent to six LPG cylinders worth of energy per month</div>
+                                </li>
                             </ul>
                         </div>
-                        <div class="image-content">
-                            <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/8d5dd2a4-2f3e-41fa-979a-16b90dd61edf.png" alt="Biogas Yield Chart" class="slide-image">
+                        <div class="content-visual">
+                            <div class="yield-chart">
+                                <div class="chart-title">Biogas Yield from Food Waste</div>
+                                <div class="chart-bars">
+                                    <div class="chart-bar">
+                                        <div class="bar-value">0.35 m³</div>
+                                        <div class="bar-fill" style="height: 70%"></div>
+                                        <div class="bar-label">Max Yield</div>
+                                    </div>
+                                    <div class="chart-bar">
+                                        <div class="bar-value">0.3 m³</div>
+                                        <div class="bar-fill" style="height: 60%"></div>
+                                        <div class="bar-label">Avg Yield</div>
+                                    </div>
+                                    <div class="chart-bar">
+                                        <div class="bar-value">0.25 m³</div>
+                                        <div class="bar-fill" style="height: 50%"></div>
+                                        <div class="bar-label">Min Yield</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -138,23 +345,47 @@
             <!-- Slide 8: Economic Analysis -->
             <div class="slide" data-slide="8">
                 <div class="slide-content">
-                    <h1 class="slide-title">Economic Analysis (India)</h1>
-                    <div class="content-with-image">
-                        <div class="text-content">
+                    <div class="slide-header">
+                        <div class="slide-number">07</div>
+                        <h1 class="slide-title">Economic Analysis (India)</h1>
+                    </div>
+                    <div class="content-grid">
+                        <div class="content-text">
                             <div class="cost-breakdown">
                                 <div class="cost-item">
-                                    <strong>Small (2m³):</strong> ₹1.7 lakh, savings ₹20k/year, payback 7.7 years
+                                    <div class="cost-icon">💰</div>
+                                    <div class="cost-details">
+                                        <h3>Small (2m³)</h3>
+                                        <p>₹1.7 lakh investment</p>
+                                        <p>₹20k/year savings</p>
+                                        <p>7.7 years payback</p>
+                                    </div>
                                 </div>
                                 <div class="cost-item">
-                                    <strong>Medium (6m³):</strong> ₹4.5 lakh, savings ₹67k/year, payback 6.3 years
+                                    <div class="cost-icon">💰</div>
+                                    <div class="cost-details">
+                                        <h3>Medium (6m³)</h3>
+                                        <p>₹4.5 lakh investment</p>
+                                        <p>₹67k/year savings</p>
+                                        <p>6.3 years payback</p>
+                                    </div>
                                 </div>
                                 <div class="cost-item">
-                                    <strong>Large (10m³):</strong> ₹7 lakh, savings ₹1.13L/year, payback 5.8 years
+                                    <div class="cost-icon">💰</div>
+                                    <div class="cost-details">
+                                        <h3>Large (10m³)</h3>
+                                        <p>₹7 lakh investment</p>
+                                        <p>₹1.13L/year savings</p>
+                                        <p>5.8 years payback</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="image-content">
-                            <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/907ae5a3-da6a-46bb-bc16-05ceeda92a4c.png" alt="Economic Analysis Chart" class="slide-image">
+                        <div class="content-visual">
+                            <div class="image-frame">
+                                <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/907ae5a3-da6a-46bb-bc16-05ceeda92a4c.png" alt="Economic Analysis Chart" class="slide-image">
+                                <div class="image-caption">Economic Analysis</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -163,34 +394,72 @@
             <!-- Slide 9: MNRE Subsidies -->
             <div class="slide" data-slide="9">
                 <div class="slide-content">
-                    <h1 class="slide-title">MNRE Subsidies &amp; Support</h1>
-                    <ul class="bullet-list">
-                        <li>Central government subsidies of <span class="highlight">₹7,500 to ₹25,000 per plant</span> based on capacity</li>
-                        <li>Additional <span class="highlight">20% subsidy</span> available for North-Eastern and hilly states</li>
-                        <li>Turnkey job fees offered for installation support</li>
-                        <li>SATAT scheme incentivizes large-scale Compressed Biogas plants with financial assistance</li>
-                    </ul>
+                    <div class="slide-header">
+                        <div class="slide-number">08</div>
+                        <h1 class="slide-title">MNRE Subsidies & Support</h1>
+                    </div>
+                    <div class="content-grid">
+                        <div class="content-text">
+                            <ul class="bullet-list">
+                                <li>
+                                    <span class="bullet-icon">🏛️</span>
+                                    <div>Central government subsidies of <strong>₹7,500 to ₹25,000 per plant</strong> based on capacity</div>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">⛰️</span>
+                                    <div>Additional <strong>20% subsidy</strong> available for North-Eastern and hilly states</div>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">🔧</span>
+                                    <div>Turnkey job fees offered for installation support</div>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">⚡</span>
+                                    <div>SATAT scheme incentivizes large-scale Compressed Biogas plants with financial assistance</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="content-visual">
+                            <div class="subsidy-visual">
+                                <div class="subsidy-card">
+                                    <div class="subsidy-amount">₹7.5k - 25k</div>
+                                    <div class="subsidy-label">Subsidy per plant</div>
+                                </div>
+                                <div class="subsidy-card">
+                                    <div class="subsidy-amount">20%</div>
+                                    <div class="subsidy-label">Extra for NE states</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
             <!-- Slide 10: Indian Case Studies -->
             <div class="slide" data-slide="10">
                 <div class="slide-content">
-                    <h1 class="slide-title">Indian Case Studies</h1>
+                    <div class="slide-header">
+                        <div class="slide-number">09</div>
+                        <h1 class="slide-title">Indian Case Studies</h1>
+                    </div>
                     <div class="case-studies-grid">
                         <div class="case-study-card">
+                            <div class="case-icon">🏫</div>
                             <h3>IIM Bangalore</h3>
                             <p>800 kg/day → 30 m³/day biogas for kitchens</p>
                         </div>
                         <div class="case-study-card">
+                            <div class="case-icon">🔬</div>
                             <h3>BARC Nisargruna</h3>
                             <p>1 ton/day → 85 m³/day biogas production</p>
                         </div>
                         <div class="case-study-card">
+                            <div class="case-icon">🏘️</div>
                             <h3>Kerala Panchayat</h3>
                             <p>₹26L investment with 3-year ROI</p>
                         </div>
                         <div class="case-study-card">
+                            <div class="case-icon">🏭</div>
                             <h3>PepsiCo Pune</h3>
                             <p>Large industrial plant: 2,000 m³/day</p>
                         </div>
@@ -201,23 +470,38 @@
             <!-- Slide 11: Environmental Benefits -->
             <div class="slide" data-slide="11">
                 <div class="slide-content">
-                    <h1 class="slide-title">Environmental &amp; Social Benefits</h1>
+                    <div class="slide-header">
+                        <div class="slide-number">10</div>
+                        <h1 class="slide-title">Environmental & Social Benefits</h1>
+                    </div>
                     <div class="benefits-grid">
                         <div class="benefit-item">
                             <div class="benefit-icon">🌱</div>
-                            <div class="benefit-text">90% emission reduction</div>
+                            <div class="benefit-text">
+                                <h3>90% Emission Reduction</h3>
+                                <p>Significant decrease in greenhouse gas emissions</p>
+                            </div>
                         </div>
                         <div class="benefit-item">
                             <div class="benefit-icon">🌿</div>
-                            <div class="benefit-text">Organic fertilizer production</div>
+                            <div class="benefit-text">
+                                <h3>Organic Fertilizer</h3>
+                                <p>Nutrient-rich digestate for agriculture</p>
+                            </div>
                         </div>
                         <div class="benefit-item">
                             <div class="benefit-icon">🧼</div>
-                            <div class="benefit-text">Enhanced hygiene practices</div>
+                            <div class="benefit-text">
+                                <h3>Enhanced Hygiene</h3>
+                                <p>Improved waste management practices</p>
+                            </div>
                         </div>
                         <div class="benefit-item">
                             <div class="benefit-icon">🇮🇳</div>
-                            <div class="benefit-text">Supports Swachh Bharat mission</div>
+                            <div class="benefit-text">
+                                <h3>Swachh Bharat</h3>
+                                <p>Supports India's cleanliness mission</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -226,27 +510,45 @@
             <!-- Slide 12: Implementation Process -->
             <div class="slide" data-slide="12">
                 <div class="slide-content">
-                    <h1 class="slide-title">Implementation Process</h1>
+                    <div class="slide-header">
+                        <div class="slide-number">11</div>
+                        <h1 class="slide-title">Implementation Process</h1>
+                    </div>
                     <div class="process-steps">
                         <div class="step">
                             <div class="step-number">1</div>
-                            <div class="step-text">Collect and segregate kitchen food waste carefully</div>
+                            <div class="step-text">
+                                <h3>Waste Collection & Segregation</h3>
+                                <p>Collect and segregate kitchen food waste carefully</p>
+                            </div>
                         </div>
                         <div class="step">
                             <div class="step-number">2</div>
-                            <div class="step-text">Pre-process waste, inoculate with microbes for digestion</div>
+                            <div class="step-text">
+                                <h3>Pre-processing & Inoculation</h3>
+                                <p>Pre-process waste, inoculate with microbes for digestion</p>
+                            </div>
                         </div>
                         <div class="step">
                             <div class="step-number">3</div>
-                            <div class="step-text">Maintain anaerobic digestion for 25–30 days to produce biogas</div>
+                            <div class="step-text">
+                                <h3>Anaerobic Digestion</h3>
+                                <p>Maintain anaerobic digestion for 25–30 days to produce biogas</p>
+                            </div>
                         </div>
                         <div class="step">
                             <div class="step-number">4</div>
-                            <div class="step-text">Collect, purify, and store biogas for cooking use</div>
+                            <div class="step-text">
+                                <h3>Biogas Collection & Purification</h3>
+                                <p>Collect, purify, and store biogas for cooking use</p>
+                            </div>
                         </div>
                         <div class="step">
                             <div class="step-number">5</div>
-                            <div class="step-text">Apply digestate as nutrient-rich organic fertilizer</div>
+                            <div class="step-text">
+                                <h3>Digestate Application</h3>
+                                <p>Apply digestate as nutrient-rich organic fertilizer</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -255,19 +557,25 @@
             <!-- Slide 13: Scalability & Feasibility -->
             <div class="slide" data-slide="13">
                 <div class="slide-content">
-                    <h1 class="slide-title">Scalability &amp; Feasibility</h1>
+                    <div class="slide-header">
+                        <div class="slide-number">12</div>
+                        <h1 class="slide-title">Scalability & Feasibility</h1>
+                    </div>
                     <div class="scale-cards">
                         <div class="scale-card">
+                            <div class="scale-icon">🏠</div>
                             <h3>Small Scale</h3>
                             <p><strong>2–6 m³</strong></p>
                             <p>Single kitchen outlets or small eateries</p>
                         </div>
                         <div class="scale-card">
+                            <div class="scale-icon">🏢</div>
                             <h3>Medium Scale</h3>
                             <p><strong>6–10 m³</strong></p>
                             <p>Hostels, institutional canteens, food courts</p>
                         </div>
                         <div class="scale-card">
+                            <div class="scale-icon">🏭</div>
                             <h3>Large Scale</h3>
                             <p><strong>&gt;10 m³</strong></p>
                             <p>Community plants and large institutions</p>
@@ -280,23 +588,50 @@
             <!-- Slide 14: Challenges & Solutions -->
             <div class="slide" data-slide="14">
                 <div class="slide-content">
-                    <h1 class="slide-title">Challenges &amp; Mitigation</h1>
+                    <div class="slide-header">
+                        <div class="slide-number">13</div>
+                        <h1 class="slide-title">Challenges & Mitigation</h1>
+                    </div>
                     <div class="challenges-grid">
                         <div class="challenge-item">
-                            <div class="challenge">Irregular food waste supply</div>
-                            <div class="solution">→ Staff training and scheduled collection</div>
+                            <div class="challenge">
+                                <div class="challenge-icon">📦</div>
+                                <div>Irregular food waste supply</div>
+                            </div>
+                            <div class="solution">
+                                <div class="solution-icon">✅</div>
+                                <div>Staff training and scheduled collection</div>
+                            </div>
                         </div>
                         <div class="challenge-item">
-                            <div class="challenge">Potential odour issues</div>
-                            <div class="solution">→ Use closed digester designs with proper venting</div>
+                            <div class="challenge">
+                                <div class="challenge-icon">👃</div>
+                                <div>Potential odour issues</div>
+                            </div>
+                            <div class="solution">
+                                <div class="solution-icon">✅</div>
+                                <div>Use closed digester designs with proper venting</div>
+                            </div>
                         </div>
                         <div class="challenge-item">
-                            <div class="challenge">Urban space constraints</div>
-                            <div class="solution">→ Use modular or subterranean digesters</div>
+                            <div class="challenge">
+                                <div class="challenge-icon">🏙️</div>
+                                <div>Urban space constraints</div>
+                            </div>
+                            <div class="solution">
+                                <div class="solution-icon">✅</div>
+                                <div>Use modular or subterranean digesters</div>
+                            </div>
                         </div>
                         <div class="challenge-item">
-                            <div class="challenge">Technical skills shortage</div>
-                            <div class="solution">→ Develop training and maintenance programs</div>
+                            <div class="challenge">
+                                <div class="challenge-icon">🔧</div>
+                                <div>Technical skills shortage</div>
+                            </div>
+                            <div class="solution">
+                                <div class="solution-icon">✅</div>
+                                <div>Develop training and maintenance programs</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -305,23 +640,38 @@
             <!-- Slide 15: Future Prospects -->
             <div class="slide" data-slide="15">
                 <div class="slide-content">
-                    <h1 class="slide-title">Future Prospects</h1>
+                    <div class="slide-header">
+                        <div class="slide-number">14</div>
+                        <h1 class="slide-title">Future Prospects</h1>
+                    </div>
                     <div class="future-grid">
                         <div class="future-item">
                             <div class="future-icon">📱</div>
-                            <div class="future-text">IoT-based real-time monitoring for process optimization</div>
+                            <div class="future-text">
+                                <h3>IoT Monitoring</h3>
+                                <p>IoT-based real-time monitoring for process optimization</p>
+                            </div>
                         </div>
                         <div class="future-item">
                             <div class="future-icon">☀️</div>
-                            <div class="future-text">Combine with solar thermal heating for enhanced efficiency</div>
+                            <div class="future-text">
+                                <h3>Solar Integration</h3>
+                                <p>Combine with solar thermal heating for enhanced efficiency</p>
+                            </div>
                         </div>
                         <div class="future-item">
                             <div class="future-icon">🏢</div>
-                            <div class="future-text">Cluster biogas plants serving urban restaurant hubs</div>
+                            <div class="future-text">
+                                <h3>Cluster Plants</h3>
+                                <p>Cluster biogas plants serving urban restaurant hubs</p>
+                            </div>
                         </div>
                         <div class="future-item">
                             <div class="future-icon">⛽</div>
-                            <div class="future-text">Expand bio-CNG production under SATAT initiative</div>
+                            <div class="future-text">
+                                <h3>Bio-CNG Expansion</h3>
+                                <p>Expand bio-CNG production under SATAT initiative</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -329,20 +679,25 @@
             
             <!-- Slide 16: Conclusion & References -->
             <div class="slide" data-slide="16">
-                <div class="slide-content conclusion-slide">
-                    <h1 class="slide-title">Conclusion &amp; References</h1>
-                    <div class="conclusion-box">
-                        <h3>Conclusion</h3>
-                        <p>Biogas production from food waste is a viable solution for energy needs and waste management. Financially feasible with current government subsidies and LPG savings. Aligns with India's sustainability and circular economy goals.</p>
+                <div class="slide-content">
+                    <div class="slide-header">
+                        <div class="slide-number">15</div>
+                        <h1 class="slide-title">Conclusion & References</h1>
                     </div>
-                    <div class="references-box">
-                        <h3>References</h3>
-                        <ul>
-                            <li>MNRE Guidelines (2025)</li>
-                            <li>BARC Nisargruna Reports</li>
-                            <li>World Biogas Association India Report (2024)</li>
-                            <li>Scientific Literature (Elsevier, ScienceDirect 2023-2025)</li>
-                        </ul>
+                    <div class="conclusion-content">
+                        <div class="conclusion-box">
+                            <h3>Conclusion</h3>
+                            <p>Biogas production from food waste is a viable solution for energy needs and waste management. Financially feasible with current government subsidies and LPG savings. Aligns with India's sustainability and circular economy goals.</p>
+                        </div>
+                        <div class="references-box">
+                            <h3>References</h3>
+                            <ul class="references-list">
+                                <li>MNRE Guidelines (2025)</li>
+                                <li>BARC Nisargruna Reports</li>
+                                <li>World Biogas Association India Report (2024)</li>
+                                <li>Scientific Literature (Elsevier, ScienceDirect 2023-2025)</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -350,8 +705,20 @@
         
         <!-- Bottom Navigation -->
         <div class="bottom-nav">
-            <div class="slide-counter">
-                <span id="currentSlide">1</span> / <span id="totalSlides">16</span>
+            <div class="nav-controls">
+                <button id="prevBtn" class="nav-btn" title="Previous Slide">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"></path>
+                    </svg>
+                </button>
+                <div class="slide-counter">
+                    <span id="currentSlide">1</span> / <span id="totalSlides">16</span>
+                </div>
+                <button id="nextBtn" class="nav-btn" title="Next Slide">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </button>
             </div>
             <div class="nav-controls">
                 <button id="fullscreenBtn" class="fullscreen-btn" title="Toggle Fullscreen">
@@ -364,135 +731,5 @@
     </div>
     
     <script src="./app.js"></script>
-
-<amino-inspect></amino-inspect><div id="thunderbit-crx-side-bar" style="display:block;opacity:1;pointer-events:all;top:0;right:0;z-index:9007199254740991;position:fixed;pointer-events:none;user-select:none;"><template shadowrootmode="open"><div id="#react-app-root"><div id="#react-app-slot" style="display:flex"></div></div></template></div><button id="open-side-panel" style="width:0;height:0;opacity:0;user-select:none;pointer-events:all;position:absolute;bottom:0;right:0;padding:0;border:0;outline:none;"></button><aside contenteditable="false" id="color_picker">
-		<svg id="color_box" width="263" height="130">
-			<defs>
-				<lineargradient id="saturation" x1="0%" y1="0%" x2="100%" y2="0%">
-					<stop offset="0%" stop-color="#fff"></stop>
-					<stop offset="100%" stop-color="hsl(0,100%,50%)"></stop>
-				</lineargradient>
-				<lineargradient id="brightness" x1="0%" y1="0%" x2="0%" y2="100%">
-					<stop offset="0%" stop-color="rgba(0,0,0,0)"></stop>
-					<stop offset="100%" stop-color="#000"></stop>
-				</lineargradient>
-				<pattern id="pattern_config" width="100%" height="100%">
-					<rect x="0" y="0" width="100%" height="100%" fill="url(#saturation)"></rect> }
-					<rect x="0" y="0" width="100%" height="100%" fill="url(#brightness)"></rect>
-				</pattern>
-			</defs>
-			<rect rx="5" ry="5" x="1" y="1" width="263" height="130" stroke="#fff" stroke-width="2" fill="url(#pattern_config)"></rect>
-			<svg id="box_dragger" x="336" y="14" style="overflow: visible;">
-				<circle r="9" fill="none" stroke="#000" stroke-width="2"></circle>
-				<circle r="7" fill="none" stroke="#fff" stroke-width="2"></circle>
-			</svg>
-		</svg>
-		<br>
-		<div id="sliders">
-			<svg id="color_slider" width="263" height="20">
-				<defs>
-					<lineargradient id="hue" x1="100%" y1="0%" x2="0%" y2="0%">
-						<stop offset="0%" stop-color="#f00"></stop>
-						<stop offset="16.666%" stop-color="#ff0"></stop>
-						<stop offset="33.333%" stop-color="#0f0"></stop>
-						<stop offset="50%" stop-color="#0ff"></stop>
-						<stop offset="66.666%" stop-color="#00f"></stop>
-						<stop offset="83.333%" stop-color="#f0f"></stop>
-						<stop offset="100%" stop-color="#f00"></stop>
-					</lineargradient>
-				</defs>
-				<rect rx="5" ry="5" x="1" y="1" width="263" height="20" stroke="#fff" stroke-width="2" fill="url(#hue)"></rect>
-				<svg id="color_slider_dragger" x="277" y="11" style="overflow: visible;">
-					<circle r="7" fill="none" stroke="#000" stroke-width="2"></circle>
-					<circle r="5" fill="none" stroke="#fff" stroke-width="2"></circle>
-				</svg>
-			</svg>
-			<svg id="opacity_slider" width="263" height="20">
-				<defs>
-					<lineargradient id="opacity" x1="100%" y1="0%" x2="0%" y2="0%">
-						<stop offset="0%" stop-color="#000"></stop>
-						<stop offset="100%" stop-color="#fff"></stop>
-					</lineargradient>
-				</defs>
-				<rect rx="5" ry="5" x="1" y="6" width="263" height="10" stroke="#fff" stroke-width="2" fill="url(#opacity)"></rect>
-				<svg id="opacity_slider_dragger" x="277" y="11" style="overflow: visible;">
-					<circle r="7" fill="none" stroke="#000" stroke-width="2"></circle>
-					<circle r="5" fill="none" stroke="#fff" stroke-width="2"></circle>
-				</svg>
-			</svg>
-		</div>
-		<div id="color_text_values" tabindex="0">
-			<div id="hexa">
-				<input id="hex_input" name="hex_input" type="text" maxlength="9" spellcheck="false">
-				<br>
-				<label for="hex_input" class="label_text">HEX</label>
-			</div>
-			<div id="rgba" style="display: none;">
-				<div class="rgba_divider">
-					<input class="rgba_input" name="r" type="number" min="0" max="255">
-					<br>
-					<label for="r" class="label_text">R</label>
-				</div>
-				<div class="rgba_divider">
-					<input class="rgba_input" name="g" type="number" min="0" max="255">
-					<br>
-					<label for="g" class="label_text">G</label>
-				</div>
-				<div class="rgba_divider">
-					<input class="rgba_input" name="b" type="number" min="0" max="255">
-					<br>
-					<label for="b" class="label_text">B</label>
-				</div>
-				<div class="rgba_divider">
-					<input class="rgba_input" name="a" type="number" step="0.1" min="0" max="1">
-					<br>
-					<label for="a" class="label_text">A</label>
-				</div>
-			</div>
-			<div id="hsla" style="display: none;">
-				<div class="hsla_divider">
-					<input class="hsla_input" name="h" type="number" min="0" max="359">
-					<br>
-					<label for="h" class="label_text">H</label>
-				</div>
-				<div class="hsla_divider">
-					<input class="hsla_input" name="s" type="number" min="0" max="100">
-					<br>
-					<label for="s" class="label_text">S%</label>
-				</div>
-				<div class="hsla_divider">
-					<input class="hsla_input" name="l" type="number" min="0" max="100">
-					<br>
-					<label for="l" class="label_text">L%</label>
-				</div>
-				<div class="rgba_divider">
-					<input class="hsla_input" name="a" type="number" step="0.1" min="0" max="1">
-					<br>
-					<label for="a" class="label_text">A</label>
-				</div>
-			</div>
-			<button id="switch_color_type" class="remove_outline" name="switch-color-type">
-				<svg viewBox="0 -2 24 24" width="20" height="20">
-					<path fill="#555" d="M6 11v-4l-6 5 6 5v-4h12v4l6-5-6-5v4z"></path>
-				</svg>
-			</button>
-		</div>
-		<div id="custom_colors">
-			<div id="custom_colors_header">
-				<svg id="custom_colors_pallet_icon" viewBox="0 0 24 24" width="15" height="18">
-					<path fill="#555" d="M4 21.832c4.587.38 2.944-4.493 7.188-4.538l1.838 1.534c.458 5.538-6.315 6.773-9.026 3.004zm14.065-7.115c1.427-2.239 5.847-9.749 5.847-9.749.352-.623-.43-1.273-.976-.813 0 0-6.572 5.714-8.511 7.525-1.532 1.432-1.539 2.086-2.035 4.447l1.68 1.4c2.227-.915 2.868-1.039 3.995-2.81zm-11.999 3.876c.666-1.134 1.748-2.977 4.447-3.262.434-2.087.607-3.3 2.547-5.112 1.373-1.282 4.938-4.409 7.021-6.229-1-2.208-4.141-4.023-8.178-3.99-6.624.055-11.956 5.465-11.903 12.092.023 2.911 1.081 5.571 2.82 7.635 1.618.429 2.376.348 3.246-1.134zm6.952-15.835c1.102-.006 2.005.881 2.016 1.983.004 1.103-.882 2.009-1.986 2.016-1.105.009-2.008-.88-2.014-1.984-.013-1.106.876-2.006 1.984-2.015zm-5.997 2.001c1.102-.01 2.008.877 2.012 1.983.012 1.106-.88 2.005-1.98 2.016-1.106.007-2.009-.881-2.016-1.988-.009-1.103.877-2.004 1.984-2.011zm-2.003 5.998c1.106-.007 2.01.882 2.016 1.985.01 1.104-.88 2.008-1.986 2.015-1.105.008-2.005-.88-2.011-1.985-.011-1.105.879-2.004 1.981-2.015zm10.031 8.532c.021 2.239-.882 3.718-1.682 4.587l-.046.044c5.255-.591 9.062-4.304 6.266-7.889-1.373 2.047-2.534 2.442-4.538 3.258z"></path>
-				</svg>
-				<button id="custom_colors_add" class="remove_outline" name="add-a-custom-color">
-					<svg viewBox="0 -2 24 24" width="14" height="16">
-						<path fill="#555" d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"></path>
-					</svg>
-				</button>
-			</div>
-			<div id="custom_colors_box">
-			</div>
-		</div>
-		<div id="color_context_menu" class="color_ctx_menu" style="display: none;">
-			<button id="color_clear_single" class="color_ctx_menu" name="remove-single-color">Remove</button>
-			<button id="color_clear_all" class="color_ctx_menu" name="remove-all-colors">Remove All</button>
-		</div>
-	</aside><style type="text/css" id="weStylesheet"></style></body></html>
+</body>
+</html>
